@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700|Noto+Sans:400,700&display=swap');
+
+body {
+  background-color: #000000;
+  display         : flex;
+  align-items     : center;
+  justify-content : center;
+  padding         : 40px;
+
+  .wrapper {
+    background-color: #ffffff;
+    border-radius   : 5px;
+    box-shadow      : 0 0 10px 0 #ffffff;
+    padding         : 35px;
+    width           : 400px;
+
+    .names {
+      width : 70px;
+      margin: 0 auto 30px auto;
+
+      span {
+        display    : block;
+        font-family: 'Noto Sans', sans-serif;
+        font-size  : 17px;
+        color      : #000000;
+        margin     : 4px 0;
+        text-align : center;
+        cursor     : grab;
+      }
+
+      span:hover {
+        font-weight: bold;
+      }
+
+    }
+
+    .drop-place {
+      display: flex;
+
+      .single-drop-place {
+        width           : 50%;
+        background-color: #1E1E1E;
+        padding         : 10px;
+        border-radius   : 4px;
+
+        h5 {
+          margin     : 0;
+          color      : #ffffff;
+          text-align : center;
+          font-family: 'Merriweather', serif;
+          font-size  : 17px;
+        }
+
+        .con {
+          span {
+            display    : block;
+            font-family: 'Noto Sans', sans-serif;
+            font-size  : 17px;
+            color      : #ffffff;
+            margin     : 2px 0;
+            text-align : center;
+          }
+        }
+      }
+
+      div.boys {
+        margin-right: 4px;
+      }
+
+      div.girls {
+        margin-left: 4px;
+      }
+    }
+  }
+}

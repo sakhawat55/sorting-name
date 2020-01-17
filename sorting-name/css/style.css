@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,700|Noto+Sans:400,700&display=swap");
+body {
+  background-color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 40px;
+}
+
+body .wrapper {
+  background-color: #ffffff;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 10px 0 #ffffff;
+          box-shadow: 0 0 10px 0 #ffffff;
+  padding: 35px;
+  width: 400px;
+}
+
+body .wrapper .names {
+  width: 70px;
+  margin: 0 auto 30px auto;
+}
+
+body .wrapper .names span {
+  display: block;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 17px;
+  color: #000000;
+  margin: 4px 0;
+  text-align: center;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+body .wrapper .names span:hover {
+  font-weight: bold;
+}
+
+body .wrapper .drop-place {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .wrapper .drop-place .single-drop-place {
+  width: 50%;
+  background-color: #1E1E1E;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+body .wrapper .drop-place .single-drop-place h5 {
+  margin: 0;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 17px;
+}
+
+body .wrapper .drop-place .single-drop-place .con span {
+  display: block;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 17px;
+  color: #ffffff;
+  margin: 2px 0;
+  text-align: center;
+}
+
+body .wrapper .drop-place div.boys {
+  margin-right: 4px;
+}
+
+body .wrapper .drop-place div.girls {
+  margin-left: 4px;
+}
+/*# sourceMappingURL=style.css.map */
